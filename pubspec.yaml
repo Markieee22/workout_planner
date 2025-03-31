@@ -1,0 +1,64 @@
+name: workout_planner
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  chewie: ^1.11.0  # Keep the latest version
+  video_player: ^2.9.3  # Keep the latest version
+  provider: ^6.1.0
+  shared_preferences: ^2.2.2
+  flutter_local_notifications: ^16.3.2
+  health: 12.1.0
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.8
+  table_calendar: ^3.0.9  # Add this line
+  image_picker: ^1.0.7
+  assets_audio_player: ^3.1.1
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/fitness_bg.jpg
+    - assets/videos/bench_press.mp4
+    - assets/videos/burpees.mp4
+    - assets/videos/deadlift.mp4
+    - assets/videos/high_knees.mp4
+    - assets/videos/jumping_jacks.mp4
+    - assets/videos/lunges.mp4
+    - assets/videos/plank_jacks.mp4
+    - assets/videos/pull_ups.mp4
+    - assets/videos/push_ups.mp4
+    - assets/videos/russian_twists.mp4
+    - assets/videos/squat_jumps.mp4
+    - assets/videos/squats.mp4
+    - assets/videos/standing_side_crunches.mp4
+    - assets/videos/side_leg_raises.mp4
+    - assets/videos/flutter_kicks.mp4
+    - assets/videos/plank_shoulder_taps.mp4
+    - assets/videos/mountain_climbers.mp4
+    - assets/videos/bicycle_crunches.mp4
+    - assets/videos/side_plank.mp4
+    - assets/videos/plank.mp4
+    - assets/videos/shoulder_press.mp4
+    - assets/videos/bicep_curls.mp4
+    - assets/videos/triceps_dips.mp4
+    - assets/videos/calf_raises.mp4
+    - assets/music/photograph.mp3
+
+
+
+
+    
